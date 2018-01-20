@@ -1,0 +1,8 @@
+body {
+	background: red;
+}
+blockquote {
+	border: 1px, solid black;
+	text-align: center;
+	margin-left: 0;
+}
