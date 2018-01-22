@@ -5,18 +5,10 @@
   	<meta charset="utf-8"/>
 <link rel="Stylesheet" href="style/Style.css"/>
     <style>
-    .emphasis{
-    color: red;
-  }
-  body {
-  background-color: violet;
-  margin-right: 0px;
-
-
-}
+    
 .wrap {
   width: 80%; 
-  min-width: 300px;
+  min-width: 600px;
   margin: auto;
   background: green;
   overflow: hidden;
@@ -24,18 +16,24 @@
 .content {
   background-color: red;
   float: left;
-  width: 80%;
+  width: 70%;
+ 
+
 }
 aside {
   background: white;
-  float: right;
-  margin-left: 20%;
+  float: left;
+  margin-left: 30%;
+  padding-left: 10px;
 }
 .content, aside {
-  height: 300px;
+  height: 600px;
+  width: 600px;
+  margin-left: 0;
 }
 aside ul {
-  list-style: 400px;
+  list-style: none;
+  padding-left: 0;
 }
 html {
   font-size: 40;
@@ -50,13 +48,20 @@ ul a {
 ul a:hover {
   text-decoration: underline;
   font-size: 40px;
+  color: black;
+}
+label {
+  display: block;
+}
+blockquote {
+  border: 1px solid black
 }
 
   </style>
  
   </head>
   <body>
-  	<div><div class="wrap">
+  	<div class="wrap">
   <h1>This is my first website</h1>
   <div class="content">
    <p>Here are some things that you will like </p>
@@ -88,6 +93,9 @@ ul a:hover {
       <p>
         <input type="Submit" value="GO!" />
       </p>
+      <p>
+      <label for="Css">Do you like Css</label>
+      <input id="Css" type="radio">
       </form>
     <h2> 
       <p>Favorite quotes </p>
@@ -99,7 +107,7 @@ ul a:hover {
    <blockquote>
     <p> ......and another....</p>
    </blockquote>
-    
+    </aside>
   </div> 
 
       <h1> Things to do 
