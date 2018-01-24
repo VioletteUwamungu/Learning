@@ -27,8 +27,8 @@ aside {
   padding-left: 10px;
 }
 .content, aside {
-  height: 600px;
-  width: 600px;
+  height: 300px;
+  width: 300px;
   margin-left: 0;
 }
 aside ul {
@@ -39,9 +39,7 @@ html {
   font-size: 40;
   font-family: sans-serif;
 }
-li {
-  display: inline;
-}
+
 ul a {
   text-decoration: none;
 }
@@ -52,6 +50,9 @@ ul a:hover {
 }
 label {
   display: block;
+  cursor: pointer;
+  color: red;
+
 }
 blockquote {
   border: 1px solid black
@@ -65,7 +66,7 @@ blockquote {
   <h1>This is my first website</h1>
   <div class="content">
    <p>Here are some things that you will like </p>
-  </div>
+  
     <aside>
       <h2> 
         Favorite quotes 
@@ -95,7 +96,15 @@ blockquote {
       </p>
       <p>
       <label for="Css">Do you like Css</label>
-      <input id="Css" type="radio">
+      <input id="Css" type="radio"/> Father
+      <input id="Css" type="radio"/> Father
+      <input id="Css" type="radio"/> Father
+      <input id="Css" type="radio"/> Father
+    </p>
+    <p>
+      <label for="Father">Do you like father: </labe>
+      <input id="Checkbox" name="Father" id="Father">
+    </p>
       </form>
     <h2> 
       <p>Favorite quotes </p>
@@ -108,6 +117,7 @@ blockquote {
     <p> ......and another....</p>
    </blockquote>
     </aside>
+
   </div> 
 
       <h1> Things to do 
