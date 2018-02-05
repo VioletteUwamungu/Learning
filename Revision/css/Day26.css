@@ -1,0 +1,86 @@
+body {
+	width: 900px;
+	margin: auto;
+	background: rgb(255,229,204);
+	font-family: 'Vollkorn', serif;
+	font-size: 20px;
+
+}
+
+.banner {
+	background: url(../image/vivivi.JPG) no-repeat;
+	width: 600px;
+	height: 400px;
+	margin-top: 5px;
+}
+.banner h2 {
+	color: rgb(255,255,204);
+	font-size: 28px;
+	width: 400px;
+	font-weight: normal;
+	position: absolute;
+	
+	
+}
+header h1 {
+	background: url(../image/vivi.png) no-repeat;
+	text-indent: -90000px;
+	width: 300px;
+	height: 150px;
+
+}
+header {
+	overflow: hidden;
+}
+nav li {
+	display: inline;
+	padding-left: 0px;
+	padding-right: 140px;
+	margin: auto;
+	background: rgb(51,255,51);
+	
+}
+header h1, nav li {
+	margin-top: -50px;
+	
+}
+
+
+aside {
+	background: rgb(192,192,192);
+	float: right;
+	margin-left: 400px;
+	height: 400px;
+	margin-top: 9px;
+	width: 250px;
+}
+
+.part {
+	float: right;
+	margin-right: 100px;
+	
+	margin: auto;
+}
+a {
+	color: brown;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	font-size: 24px;
+}
+.grid-4 {
+	line-height: 50px;
+	text-align: center;
+	padding-left: 20px;
+	text-decoration: none;
+}
+blockquote {
+	
+	text-align: center;
+	margin-top: 2px;
+
+}
+.selected {
+	text-decoration: bold;
+}

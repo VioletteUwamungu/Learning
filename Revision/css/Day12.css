@@ -1,0 +1,21 @@
+<style type="text/css">
+		body {
+			background: white;
+		}
+		li {
+			color: red;
+		}
+		#emphasis {
+			color: violet;
+		}
+		.emphasis {
+			color: black;
+		}
+		#sect li:nth-child(3) {
+			color: orange;
+		}
+		ul: first-of-type li:nth-child(4) {
+			color: green;
+		}
+
+	</style>

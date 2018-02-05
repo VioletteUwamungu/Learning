@@ -1,0 +1,16 @@
+body {
+	font-family: sans-serif;
+}
+li {
+	display: inline;
+	padding-left: 10px;
+}
+ul a {
+	text-decoration: none;
+}
+ul a:hover {
+	text-decoration: underline;
+	color: black;
+	font-size: 30px;
+
+}

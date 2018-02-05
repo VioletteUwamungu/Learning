@@ -1,0 +1,9 @@
+li {
+	display: inline;
+}
+.grid 4, .grid 8 {
+	margin: 0;
+	width: 600px;
+}
+
+	

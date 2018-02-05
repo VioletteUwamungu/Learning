@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-U">
+<head>
+	<title>callbk</title>
+	<script type="text/javascript" src="">
+		var numberOfClicks = 0;
+function countMe () {
+	numberOfClicks++;
+	var element = document.getElementByID ("number");
+	if (numberOfClicks== 1) {
+		element.innerText ="clicked Once";
+	}
+	else {
+		element.innerText=="clicked" + numberOfClicks +"times";
+	}	
+}
+function showMe(){
+	var input = document.getElementByID('input');
+    var 
+}
+	</script>
+		
+</head>
+<body>
+	<div>
+		<button onclick="countMe()">Click me</button>
+		<p id="number"></p>
+	</div>
+	<form>
+		<input type="text" name="entry" id="input">
+		<button onclick="showMe">Submit</button>
+		<p id="result"></p>
+	</form>
+
+</body>
+</html>

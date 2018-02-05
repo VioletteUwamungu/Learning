@@ -1,0 +1,11 @@
+h1 {
+	font-size: 100px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: cursive;
+	letter-spacing: 10px;
+	color: violet;
+	text-transform: lowercase;
+	text-shadow: 5px 10px 10px black;
+	
+}

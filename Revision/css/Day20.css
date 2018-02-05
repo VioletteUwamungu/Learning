@@ -1,0 +1,11 @@
+body {
+	margin: 20px auto;
+}
+.box {
+	width: 400px,
+	height: 400px;
+	margin: auto;
+	background: red;
+	position: absolute;
+
+}

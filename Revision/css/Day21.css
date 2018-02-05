@@ -1,0 +1,32 @@
+
+.content {
+	margin: 20px auto;
+	width: 600px;
+	
+}
+img {
+	float: left;
+	margin-left: 40px;
+}
+footer {
+	float: right;
+}
+footer: hover {
+	color: black;
+}
+li {
+	display: inline;
+	list-style: none;
+	font-style: italic;
+	padding-left: 0px;
+}
+li:after {
+		content: '\\';
+}
+li:last-child:after {
+	content: none;
+}
+h1 {
+	font-family: sans-serif;
+	line-height: 40px;
+}
